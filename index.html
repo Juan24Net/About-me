@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d0d0d4">
+  <meta name="description" content="Portfolio and bio of [Your Name].">
+  <title>ABOUT JUAN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Back to home"><span class="brand-mark">J</span><span>Juan Purba</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Work</a><a href="legacy_work.html">Background &amp; Skills</a><a href="gear.html">My gear</a><a href="#contact" class="nav-cta">Contact me <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <h1>Hello, My name is<br><span class="name">Juan</span><span class="period">.</span></h1>
+        <p class="role">I make stuff</p>
+        <p class="intro"></p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">View my work <span>↓</span></a><a class="text-link" href="#about">About me <span>↗</span></a></div>
+        <div class="socials"><span>FOLLOW ME</span><a href="https://instagram.com/" aria-label="Instagram">IG</a><a href="https://linkedin.com/" aria-label="LinkedIn">IN</a><a href="https://github.com/" aria-label="GitHub">GH</a></div>
+      </div>
+      <div class="hero-visual" aria-label="Profile photo area">
+        <!-- Replace profile.jpg with your photo file. -->
+        <img class="portrait-placeholder" src="profile.jpg" alt="Profile photo">
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label"><span>01</span> ABOUT ME</div>
+      <div class="about-content"><h2>Long Story Short<br><em>about me</em></h2>
+        <div class="about-details"><p>I am <strong>[Your Name]</strong>, [a student / professional / creative] interested in [your field or interests]. I believe great work comes from curiosity, consistency, and a willingness to keep learning.</p>
+          <p>Currently, I am [what you are working on]. Outside of that, I enjoy [your hobbies or interests].</p>
+          <div class="bio-grid"><div><span>LOCATION</span><strong>Indonesia</strong></div><div><span>EDUCATION</span><strong>Software Engineering Vocational High School</strong></div><div><span>EMAIL</span><strong style="color:#000;font-weight:700">juanpurba.net@gmail.com</strong></div><div><span>LANGUAGES</span><strong>English, Indonesian</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-label"><span>02</span> SELECTED WORK</div>
+      <div class="work-heading"><h2>A few things I have<br>had the chance to <em>create.</em></h2><p>Small steps, growing ideas,<br>and work worth sharing.</p></div>
+      <div class="project-carousel" aria-label="Selected projects carousel">
+        <button class="carousel-control carousel-prev" type="button" aria-label="Previous project">←</button>
+        <div class="project-grid" aria-live="polite">
+          <div class="project-track">
+            <article class="project-card is-selected" aria-current="true"><div class="project-art art-one"><span class="art-tag">01 — PROJECT</span><div class="mock-window"><div class="mock-line"></div></div><a class="project-open" href="#contact" aria-label="Open project 01">↗</a></div></article>
+            <article class="project-card" aria-current="false"><div class="project-art art-two"><span class="art-tag">02 — PROJECT</span><div class="poster"></div><span class="floating-spark"></span><a class="project-open" href="#contact" aria-label="Open project 02">↗</a></div></article>
+            <article class="project-card" aria-current="false"><div class="project-art art-three"><span class="art-tag">03 — PROJECT</span><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit-core"></div><span class="orbit-label"></span><a class="project-open" href="#contact" aria-label="Open project 03">↗</a></div></article>
+          </div>
+        </div>
+        <button class="carousel-control carousel-next" type="button" aria-label="Next project">→</button>
+      </div>
+      <div class="carousel-pagination" aria-label="Choose a project"></div>
+      <p class="project-hint">Replace these cards with your projects, experience, or achievements.</p>
+    </section>
+
+    <section class="contact section" id="contact"><div class="section-label"><span>03</span> LET US CONNECT</div><div class="contact-main"><div><p class="eyebrow">HAVE AN IDEA OR A QUESTION?</p><h2>Let us start a<br><em>conversation.</em></h2></div><div>Send an email <span>↗</span></div></div><div class="contact-bottom"><span>I would love to hear from you.</span><span>halo@email.com</span></div></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">N.</span><span>[Your Name]</span></a><span>Made with care <span class="heart">♥</span> · 2026</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
